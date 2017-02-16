@@ -1,0 +1,26 @@
+HKCR
+{
+	COMServer.COMDemo.1 = s 'Welcome Class'
+	{
+		CLSID = s '{582067E7-A478-4AE7-9AD0-E2C50C70A59F}'
+	}
+	COMServer.COMDemo = s 'Welcome Class'
+	{		
+		CurVer = s 'COMServer.COMDemo.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {582067E7-A478-4AE7-9AD0-E2C50C70A59F} = s 'Welcome Class'
+		{
+			ProgID = s 'COMServer.COMDemo.1'
+			VersionIndependentProgID = s 'COMServer.COMDemo'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{42E0472E-CDED-4E22-B74F-9E77A49976B2}'
+			Version = s '1.0'
+		}
+	}
+}

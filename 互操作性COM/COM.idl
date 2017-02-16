@@ -1,0 +1,35 @@
+// COM.idl : 互操作性COM的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(COM.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(CF360EB9-BF97-41AB-BEC5-7F8603D0E0DD),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IWelcome : IDispatch{
+	[id(1)] HRESULT Greeting([in] BSTR name, [out, retval] BSTR* message);
+};
+[
+	uuid(42E0472E-CDED-4E22-B74F-9E77A49976B2),
+	version(1.0),
+]
+library 互操作性COMLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(582067E7-A478-4AE7-9AD0-E2C50C70A59F)		
+	]
+	coclass Welcome
+	{
+		[default] interface IWelcome;
+	};
+};
+
