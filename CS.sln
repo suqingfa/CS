@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26206.0
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CS类库", "CS类库", "{078D8E0D-28BA-4E9B-A313-37C22F36132F}"
 EndProject
@@ -42,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq to SQL", "Linq to SQL\Linq to SQL.csproj", "{97C7DE63-E11C-4570-A4D2-FDBB47635410}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis", "Redis\Redis.csproj", "{64B49013-AE61-41CB-935C-DD09FF9CDF08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expression", "Expression\Expression.csproj", "{B1E4E99E-97E9-4882-979E-F9C582768BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -229,6 +231,18 @@ Global
 		{64B49013-AE61-41CB-935C-DD09FF9CDF08}.Release|x64.Build.0 = Release|Any CPU
 		{64B49013-AE61-41CB-935C-DD09FF9CDF08}.Release|x86.ActiveCfg = Release|Any CPU
 		{64B49013-AE61-41CB-935C-DD09FF9CDF08}.Release|x86.Build.0 = Release|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Debug|x64.Build.0 = Debug|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Debug|x86.Build.0 = Debug|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Release|x64.ActiveCfg = Release|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Release|x64.Build.0 = Release|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Release|x86.ActiveCfg = Release|Any CPU
+		{B1E4E99E-97E9-4882-979E-F9C582768BAE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
