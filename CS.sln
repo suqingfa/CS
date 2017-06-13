@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CS类库", "CS类库", "{078D8E0D-28BA-4E9B-A313-37C22F36132F}"
 EndProject
@@ -46,6 +46,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expression", "Expression\Expression.csproj", "{B1E4E99E-97E9-4882-979E-F9C582768BAE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_Pgsql", "EF_Pgsql\EF_Pgsql.csproj", "{567F7AFF-EB38-4548-8A84-DC2B8D822F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "读写物理磁盘", "读写物理磁盘\读写物理磁盘.csproj", "{A170F581-2163-44F0-A5D8-FE700FC9CAEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -257,6 +259,18 @@ Global
 		{567F7AFF-EB38-4548-8A84-DC2B8D822F24}.Release|x64.Build.0 = Release|Any CPU
 		{567F7AFF-EB38-4548-8A84-DC2B8D822F24}.Release|x86.ActiveCfg = Release|Any CPU
 		{567F7AFF-EB38-4548-8A84-DC2B8D822F24}.Release|x86.Build.0 = Release|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Debug|x64.Build.0 = Debug|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Debug|x86.Build.0 = Debug|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Release|x64.ActiveCfg = Release|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Release|x64.Build.0 = Release|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Release|x86.ActiveCfg = Release|Any CPU
+		{A170F581-2163-44F0-A5D8-FE700FC9CAEF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
